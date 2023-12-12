@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "223804779726",
+    "firebase_url": "https://webphim-8a470-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "webphim-8a470",
+    "storage_bucket": "webphim-8a470.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223804779726:android:924db75a532fa8275db49f",
+        "android_client_info": {
+          "package_name": "vn.dinhgiang.webphim_giang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOwsutxvams7i-_tqngvb1Vv0X2UJT8Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
