@@ -1,4 +1,4 @@
-package vn.dinhgiang.webphim_giang;
+package vn.dinhgiang.webphim_giang.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -13,6 +13,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import vn.dinhgiang.webphim_giang.R;
 
 public class Register extends AppCompatActivity {
 

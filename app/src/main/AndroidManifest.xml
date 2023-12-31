@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -12,14 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WebPhim_giang"
         tools:targetApi="31">
+
         <activity
-            android:name=".Intro_activity"
+            android:name=".Activities.DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".Register"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
+            android:name=".Activities.Intro_activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,8 +27,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.Register"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Login"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.MainActivity"
             android:exported="true" />
     </application>
-
 </manifest>

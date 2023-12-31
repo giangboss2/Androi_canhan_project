@@ -1,4 +1,4 @@
-package vn.dinhgiang.webphim_giang;
+package vn.dinhgiang.webphim_giang.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
+
+import vn.dinhgiang.webphim_giang.R;
 
 public class Login extends AppCompatActivity {
 
